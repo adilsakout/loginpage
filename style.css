@@ -1,0 +1,87 @@
+body{
+    background-color: lightgray;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center ;
+}
+.container{
+    width: 60%;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;   
+}
+.right{
+    width: 50%;
+    height: auto;
+     background-image: linear-gradient(to right bottom, #1e212a, #21253a, #282849, #342a57, #442963, #50296d, #5e2876, #6c267e, #77278a, #822795, #8d27a1, #9927ad);
+    padding: 10px;
+    border-right: 5px solid none;
+    border-top-right-radius: 15px ;
+    border-bottom-right-radius: 15px;
+    color: #fff;
+}
+.left{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    border-top-left-radius:  15px ;
+    border-bottom-left-radius: 15px;
+    background-color: aliceblue ;
+    text-align: center ;
+}
+.in{
+    width: 75%;
+    margin-left: 20px;
+    height: 20px;
+    background-color: lightgray;
+    border-style: none;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    margin-bottom: 20px
+    
+}
+.out{
+    display: flex ;
+    text-align: center ;
+    
+}
+.outt{
+    padding: 15px;
+}
+li{
+    float: left;
+}
+#forgot{
+    font-style: none ;
+    text-align: right;
+}
+.button{
+    width: 350px;
+    margin-left: 20px;
+    height: 50px;
+    background-color: #9c27b0;
+    border-style: none;
+    margin: 20px;
+    color: #fff;
+}
+.register{
+    position: relative;
+display: inline-block;
+margin: 0px;
+width: 180px;
+height: 45px;
+font-family: 'Quicksand', sans-serif;
+font-weight: bold;
+background-color:
+transparent;
+border: 1px solid
+white;
+border-radius: 25px;
+color:
+    white;
+    font-weight: bold;
+    transition: 0.4s;
+    cursor: pointer;
+}
